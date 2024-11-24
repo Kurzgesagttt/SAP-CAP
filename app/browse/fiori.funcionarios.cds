@@ -22,9 +22,11 @@ annotate my.Funcionarios with @UI : {
        Label : 'Cargo'
     }
     ],
-    HeaderInfo  : {
+    HeaderInfo : {
         $Type : 'UI.HeaderInfoType',
-        TypeName : 'Gerenciar Funcionarios',
-        TypeNamePlural : 'Gerenciar Funcionarios',
+        TypeName : 'Funcionario',
+        TypeNamePlural : 'Funcionarios',
+        Title : {Value: primeiro_nome},
+        Description : {Value : cargo}
     },
 };
